@@ -8,7 +8,7 @@
     (drawings 13)
     (tracks 394)
     (zones 0)
-    (modules 45)
+    (modules 59)
     (nets 28)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.508)
+    (last_trace_width 2)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
     (user_trace_width 0.762)
@@ -161,6 +161,18 @@
     (add_net "Net-(Q4-Pad1)")
     (add_net "Net-(Q4-Pad4)")
     (add_net "Net-(R6-Pad2)")
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A857)
+    (at 126 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
   )
 
   (module Hbridge_proto:HEATSINK_TO-220_DUAL (layer F.Cu) (tedit 58D33435) (tstamp 58D35DA9)
@@ -1336,7 +1348,7 @@
       (net 1 GND))
   )
 
-  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3AAA6)
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A845)
     (at 105 67)
     (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.03175)))
@@ -1348,8 +1360,164 @@
       (zone_connect 2))
   )
 
-  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3AAAA)
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A847)
     (at 105 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A849)
+    (at 108 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84A)
+    (at 108 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84B)
+    (at 111 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84C)
+    (at 111 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84D)
+    (at 114 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84E)
+    (at 114 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A84F)
+    (at 117 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A850)
+    (at 117 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A851)
+    (at 120 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A852)
+    (at 120 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A853)
+    (at 123 67)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A854)
+    (at 123 70)
+    (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA-7MM (at 0 -0.9) (layer F.Fab) hide
+      (effects (font (size 0.2 0.2) (thickness 0.05)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask)
+      (zone_connect 2))
+  )
+
+  (module Hbridge_proto:VIA-7MM (layer F.Cu) (tedit 58D377E9) (tstamp 58D3A856)
+    (at 126 67)
     (fp_text reference REF** (at 0 0.9) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.03175)))
     )
@@ -1586,14 +1754,14 @@
   (segment (start 137.5 110.25) (end 137.5 107.5) (width 0.254) (layer B.Cu) (net 5) (tstamp 58D3844D))
   (segment (start 80.25 117.65) (end 89.075241 117.62718) (width 0.254) (layer B.Cu) (net 5) (status 10))
   (segment (start 77 117.65) (end 80.25 117.65) (width 0.254) (layer B.Cu) (net 5) (status 20))
-  (segment (start 105.92 69.08) (end 106 69) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D56))
   (segment (start 105.92 77.81) (end 105.92 69.08) (width 2) (layer B.Cu) (net 6))
-  (segment (start 125.22 77.81) (end 125.22 69.22) (width 2) (layer B.Cu) (net 6))
-  (segment (start 125.22 69.22) (end 125 69) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D5A))
+  (segment (start 105.92 69.08) (end 106 69) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D56))
   (segment (start 186.18 77.81) (end 186.18 69.18) (width 2) (layer B.Cu) (net 6))
   (segment (start 186.18 69.18) (end 186 69) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D61))
   (segment (start 166.88 77.81) (end 166.88 70.12) (width 2) (layer B.Cu) (net 6))
   (segment (start 166.88 70.12) (end 167 70) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D5E))
+  (segment (start 125.22 77.81) (end 125.22 69.22) (width 2) (layer B.Cu) (net 6))
+  (segment (start 125.22 69.22) (end 125 69) (width 2) (layer B.Cu) (net 6) (tstamp 58D39D5A))
   (segment (start 95 68) (end 107 68) (width 8) (layer F.Cu) (net 6) (tstamp 58D379E0))
   (segment (start 125 68) (end 167 68) (width 8) (layer F.Cu) (net 6) (tstamp 58D36CC9))
   (segment (start 106 68) (end 125 68) (width 8) (layer F.Cu) (net 6) (tstamp 58D36CC4))

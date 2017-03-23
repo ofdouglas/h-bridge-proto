@@ -1,0 +1,8 @@
+(module "HEATSINK TO-220 DUAL" (layer F.Cu) (tedit 58D2F71B)
+  (fp_text reference HS (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "HEATSINK TO-220 DUAL" (at 0 -1.27) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
